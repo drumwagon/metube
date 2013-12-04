@@ -27,6 +27,9 @@ ActiveRecord::Schema.define(version: 20131204052801) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "subtitle"
+    t.string   "uploader"
+    t.integer  "year"
   end
 
 end
