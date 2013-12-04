@@ -1,11 +1,3 @@
 <h1>New Video</h1>
-<%= form_for @video do |f| %>
-	<%= f.label :title %><br>
-	<%= f.text_field :title, :placeholder => "Movie Title here" %><br>
-	<%= f.label :youtube_id %><br>
-	<%= f.text_field :youtube_id, :placeholder => "Movie ID here" %><br>
-	<%= f.label :description %><br>
-	<%= f.text_area :description, :placeholder => "Description here", cols: 25, rows: 5  %><br>
 
-	<%= f.submit %>
-<% end %>
+<%= render "form" %>
